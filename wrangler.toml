@@ -1,0 +1,9 @@
+# Tells Cloudflare how to run Second Look. Nothing here is secret.
+name = "second-look"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+workers_dev = true
+keep_vars = true
+
+[observability]
+enabled = true
